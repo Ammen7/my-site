@@ -41,6 +41,14 @@ body {
   background-image: url("img/icon-email-header.svg");
 }
 
+.header-email:hover {
+	color: red;
+}
+
+.heading:hover {
+	color: navy;
+}
+
 .header-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
@@ -190,4 +198,13 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+
+.user-image>img {
+	filter: grayscale(100%);
+	transition: all .5s;
+}
+
+.user-image>img:hover {
+	filter: none;
 }
