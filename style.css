@@ -6,17 +6,11 @@ body {
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  /*background-image: url("img/hero-bg.jpg");*/
+  background-image: url("img/hero-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top center;
-}
-
-.background img {
-  position: fixed;
-  top: 0;
-  width: 1920px;
-  height: 1080px;
-  z-index: -1;
 }
 
 .container {
