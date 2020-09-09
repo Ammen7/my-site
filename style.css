@@ -95,6 +95,17 @@ body {
 
 .user-image img {
   border-radius: 5%;
+  /* filter: grayscale(1); */
+}
+
+.user-image img:hover {
+  transition: 1s;
+  filter: grayscale(0);
+}
+
+.user-image img:not(:hover) {
+  transition: 1s;
+  filter: grayscale(1);
 }
 
 .intro h3,
